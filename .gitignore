@@ -1,0 +1,32 @@
+
+# 編譯輸出
+*.exe
+*.out
+*.obj
+*.o
+
+# 暫存/快取檔
+*.log
+*.tmp
+
+# 編輯器設定檔（VSCode）
+.vscode/
+
+# CMake 產物（如有使用）
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# 系統檔案
+.DS_Store
+Thumbs.db
+
+# 資料輸出/測試檔（自訂）
+*.csv
+*.txt
+*.bin
+
+# 備份檔
+*~
+*.bak
