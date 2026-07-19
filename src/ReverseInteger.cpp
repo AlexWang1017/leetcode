@@ -10,15 +10,15 @@ public:
         int r = 0;
 
         while (x != 0){
-            int digit = x % 10;
+            int digit = x % 10; // 程计
             if (r > INT_MAX / 10 || (r == INT_MAX / 10 && digit > 7))    //INT_MAX =  2147483647
             return 0;
 
             if (r < INT_MIN / 10 || (r == INT_MIN / 10 && digit < -8))   //INT_MIN = -2147483648
                 return 0;
             
-            r = r * 10 + digit;
-            x /= 10;
+            r = r * 10 + digit; 
+            x /= 10; //彼程计
         }
         return r;
     }
